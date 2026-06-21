@@ -10,7 +10,7 @@ export default function App() {
     <>
       {/* Background Image that will be revealed */}
       <img 
-        src="/reflection_by_eoworfindir_dj89vfm.png" 
+        src="/88087827-pixel-art-crystalline-cave-glowing-geodes-underground-compressed.jpg_202606210912.jpeg" 
         alt="Revealed reflection" 
         className="bg-image" 
       />
@@ -33,7 +33,7 @@ export default function App() {
             intensity={1.2}
             luminanceThreshold={0.2}
             luminanceSmoothing={0.05}
-            radius={0.4}
+            radius={0.6}
           />
           <ChromaticAberration
             blendFunction={BlendFunction.NORMAL}

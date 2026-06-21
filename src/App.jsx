@@ -10,7 +10,7 @@ export default function App() {
     <>
       {/* Background Image that will be revealed */}
       <img 
-        src="/88087827-pixel-art-crystalline-cave-glowing-geodes-underground-compressed.jpg_202606210912.jpeg" 
+        src={`${import.meta.env.BASE_URL}88087827-pixel-art-crystalline-cave-glowing-geodes-underground-compressed.jpg_202606210912.jpeg`} 
         alt="Revealed reflection" 
         className="bg-image" 
       />
